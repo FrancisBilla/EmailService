@@ -2,9 +2,7 @@ package io.turntabl.emailservice.controllers;
 
 
 import io.turntabl.emailservice.models.MissedEmployees;
-import jdk.vm.ci.meta.Local;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -20,8 +18,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.IntStream;
